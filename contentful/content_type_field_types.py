@@ -141,3 +141,8 @@ class ObjectField(BasicField):
         """Coerces JSON values properly."""
 
         return json.loads(json.dumps(value))
+
+
+class StructuredTextField(BasicField):
+
+    pass
